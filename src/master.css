@@ -1,0 +1,68 @@
+@import "tailwindcss";  
+
+
+    body {
+            background-image:
+                linear-gradient(
+                    rgba(32, 55, 58, 0.45),
+                    rgba(32, 55, 58, 0.55)
+                ),
+                url(../img/1790797001810.jpg);
+
+            background-size: cover;
+            background-position: center;
+        }
+
+
+
+        .glass {
+            background: rgba(47, 79, 79, 0.68);
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+        }
+
+
+     
+
+        .weather-main {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+     
+
+        .line {
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+
+
+        #search:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        html,
+        body {
+            width: 100%;
+            min-height: 100%;
+            overflow-x: hidden;
+        }
+
+
+        .glass {
+            min-width: 0;
+        }
+
+
+        .soft-text {
+            color: rgba(255, 255, 255, 0.72);
+        }
